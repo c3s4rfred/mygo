@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Go quote", quote.Go())
+	fmt.Println("Go quote->", quote.Go())
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/Hi", handlerHi)
 	http.ListenAndServe(":8000", nil)
