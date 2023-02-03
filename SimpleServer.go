@@ -2,12 +2,11 @@ package mygo
 
 import (
 	"fmt"
-	"net/http"
 )
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "This the root\n")
+func func1() {
+	fmt.Println("This the root\n")
 }
-func handlerHi(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "This the Hi\n")
+func func2() {
+	fmt.Println("This the Hi\n")
 }
